@@ -1,0 +1,11 @@
+export const USERNAME_CHANGED = "username_changed";
+export const PASSWORD_CHANGED = "password_changed";
+export const LOG_OUT = "log_out";
+export const LOGIN_SUCCESS = "login_sucess";
+export const LOGIN_FAIL = "login_fail";
+export const SIGNUP_SUCCESS = "signup_sucess";
+export const FETCH_USER = "fetch_user";
+export const SIGNUP_FAIL = "signupfail";
+export const SUBMIT_EMAIL="submit_email";
+export const FETCH_EMAILS='fetch_emails';
+export const DELETE_EMAILS='delete_emails';
