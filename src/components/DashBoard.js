@@ -19,14 +19,8 @@ class DashBoard extends Component {
                 <span className="card-title center">Hello !</span>
                 <p className="center">
                   Click top-up button on the side navigation to top up your
-                  balance
+                  balance first
                 </p>
-              </div>
-              <div className="card-action center">
-                <p className="center light-blue">
-                  Click the add button on the button right cornor to send emails
-                </p>
-                <Link to="/Email/new">Or just click here</Link>
               </div>
             </div>
             <EmailList />

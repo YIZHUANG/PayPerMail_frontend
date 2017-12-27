@@ -55,15 +55,7 @@ class Header extends Component {
     return (
       <nav className="nav-extended">
         <div className="nav-wrapper">
-          <a className="brand-logo">
-            <Link to="/">PayPerMail</Link>
-          </a>
-          <a href="#" data-activates="mobile-demo" className="button-collapse">
-            <i className="material-icons">menu</i>
-          </a>
-          <ul id="nav-mobile" className="right hide-on-med-and-down">
-            {this.renderContent()}
-          </ul>
+          <ul className="right">{this.renderContent()}</ul>
         </div>
         <div className="nav-content">
           <ul className="tabs tabs-transparent">

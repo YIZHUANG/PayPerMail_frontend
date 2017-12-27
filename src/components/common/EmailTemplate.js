@@ -16,7 +16,7 @@ class EmailTemplate extends Component {
               <div className="col s6">
                 <div className="card hoverable">
                   <div className="card-image">
-                    <img src="https://image.ibb.co/cz3bVR/We_Chat_Image_20171226020011.jpg" />
+                    <img src="https://s3.amazonaws.com/digitalmarketer-downloads/website/content/uploads/2016/01/ecommerce-email-guide-img36.jpg" />
                   </div>
                   <div className="card-content center">
                     <p>Promotional template</p>
@@ -29,10 +29,10 @@ class EmailTemplate extends Component {
               <div className="col s6">
                 <div className="card hoverable">
                   <div className="card-image">
-                    <img src="https://image.ibb.co/mcnQPm/We_Chat_Image_20171226020033.jpg" />
+                    <img src="https://emaildesign.beefree.io/wp-content/uploads/2016/05/survey-23.png" />
                   </div>
                   <div className="card-content center">
-                    <p>Survey temple</p>
+                    <p>Survey template</p>
                   </div>
                   <div className="card-action center">
                     <a>Template number 2</a>

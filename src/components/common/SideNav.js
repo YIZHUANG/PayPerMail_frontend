@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./SideNav.css";
+import "../styling/SideNav.css";
 import { HashRouter, Route, Router, Link } from "react-router-dom";
 import { fetchUser } from "../../actions";
 import { connect } from "react-redux";

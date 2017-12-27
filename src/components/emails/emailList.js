@@ -26,16 +26,15 @@ class EmailList extends Component {
       return (
         <div className="card" key={email._id}>
           <div className="card-content">
-            <a
+            <span
               onClick={this.deleteEmail.bind(this, email._id)}
-              className="right btn"
+              className="right glyphicon glyphicon-trash"
             >
-              Delete
-            </a>
+            </span>
             <span className="card-title center">{email.title}</span>
             <p>{email.body}</p>
             <p className="right">
-              CreationDate : {new Date(email.creationDate).toLocaleDateString()}
+              Sent on : {new Date(email.creationDate).toLocaleDateString()}
             </p>
           </div>
           <div className="card-action">

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Home.css";
 import Header from "../Header";
 
 class Solutions extends Component {
