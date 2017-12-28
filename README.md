@@ -5,6 +5,8 @@ Heroku demo : https://paypermail.herokuapp.com
 Build with ReactJs as the front-end.
 Node.js as back-end, and mongoDb as the database.
 
+Excuse me for the styling, for features to work only.
+
 ## Features
 
 
